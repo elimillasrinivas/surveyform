@@ -1,0 +1,22 @@
+.topbar{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    box-shadow: 3px 3px 3px rgba(36, 36, 36,0.5);
+
+}
+.topbar>img{
+    width: 50px;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    height: 50px;
+    border-radius: 50%;
+}
+.topbar>img:nth-child(2){
+    width: 30px;
+    height: 30px;
+    border-radius: 0%;
+    margin-left: 70rem;
+    margin-top: 1.5rem;
+}
